@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>activity 10</title>
+    <style>
+        body{
+            background-color: black;
+            color: aqua;
+        }
+        h1{
+            font-family: 'Brush Script MT', cursive;
+            text-decoration: underline;
+        }
+        #b{
+            border: 3px solid aqua;
+            height: 100px;
+            width: auto;
+            border-radius: 20px;
+            color: white;
+        }
+        #c{
+            
+            border: 3px aqua;
+            border-style: hidden solid solid;
+            height: 50px;
+            width: auto;
+            border-radius: 10px;
+            color: white;
+        }
+      
+    a:link{
+        color: black;
+        background-color: rgb(218, 208, 208);
+        text-decoration:none;
+    }
+
+      table{
+            border-style: hidden solid solid;
+            border-color: rgba(9, 107, 107, 0.799);
+            padding:5px 10px 5px 10px;
+            width: 1250px;
+            border-width: 10px;
+            text-align: center;
+            border-radius: 30px;
+        }  
+        thead{
+            background-color: grey;
+            color: black;
+        }
+        tbody{
+            color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>About Me</h1>
+    <p>Hello I'm Riwick Smith, a passionate web developer with love for creating beautiful and functional websites. I have experience in HTML, CSS, Javascript and more.</p><br>
+    <h1>My Projects</h1>
+    <a href="activity4.html" target="_blank">
+    <div id="b"> 
+        <h3>Project1</h3>
+        a description of project1. lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </div></a><br>
+    <a href="activity5.html" target="_blank">
+        <div id="b">
+            <h3>Project2</h3>
+            a description of project2. lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+    </a>
+    <h1><center>Project Statistics</center></h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Project</th>
+                <th>Technologies</th>
+                <th>Completion Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Project1</td>
+                <td>HTML,CSS,Javascript</td>
+                <td>June 2024</td>
+            </tr>
+            <tr>
+                <td>Project2</td>
+                <td>React,Node.js</td>
+                <td>August 2024</td>
+            </tr>
+        </tbody>
+    </table><br>
+    <form action="" method="post">
+        <label for="name" >Name</label><br>
+        <input type="text" id="name" size="180" maxlength="500"><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" size="180" maxlength="500"><br><br>
+        <div id="c">
+        <p> Preferred Contact Method</p>
+        <input type="radio" id="Email" value="e" name="refer">
+        <label for="Email">Email</label>
+        <input type="radio" id="phone" value="p" name="refer">
+        <label for="phone">Phone</label>
+        </div><br>
+        <input type="checkbox" id="hobby" name="hobby" value="dance">Subscribe to newsletter
+    </form>
+</body>
+</html>
